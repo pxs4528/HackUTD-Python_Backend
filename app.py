@@ -7,34 +7,34 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    url = "https://api.taapi.io/macd?secret=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbHVlIjoiNjM3MGJkZWJmYzVhOGFkZmVjYWMzZTFmIiwiaWF0IjoxNjY4MzMzMDU1LCJleHAiOjMzMTcyNzk3MDU1fQ.2aS4jcjhQ6UQGLfJnk3DCJBEpc-wixKemrJ5FXMh5as&exchange=binance&symbol=BTC/USDT&interval=30m&backtrack=40"
+    #url = "https://api.taapi.io/macd?secret=&exchange=binance&symbol=BTC/USDT&interval=30m&backtrack=40"
     response = requests.get(url)
     values = response.json()
     print(type(values))
     BTC = response.json()
     time.sleep(15)
 
-    url = "https://api.taapi.io/macd?secret=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbHVlIjoiNjM3MGJkZWJmYzVhOGFkZmVjYWMzZTFmIiwiaWF0IjoxNjY4MzMzMDU1LCJleHAiOjMzMTcyNzk3MDU1fQ.2aS4jcjhQ6UQGLfJnk3DCJBEpc-wixKemrJ5FXMh5as&exchange=binance&symbol=ETH/USDT&interval=30m&backtrack=40"
+    #url = "https://api.taapi.io/macd?secret=&exchange=binance&symbol=ETH/USDT&interval=30m&backtrack=40"
     response = requests.get(url)
     values = response.json()
     print(type(values))
     ETC = response.json()
     time.sleep(15)
 
-    url = "https://api.taapi.io/macd?secret=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbHVlIjoiNjM3MGJkZWJmYzVhOGFkZmVjYWMzZTFmIiwiaWF0IjoxNjY4MzMzMDU1LCJleHAiOjMzMTcyNzk3MDU1fQ.2aS4jcjhQ6UQGLfJnk3DCJBEpc-wixKemrJ5FXMh5as&exchange=binance&symbol=LTC/USDT&interval=30m&backtrack=40"
+    #url = "https://api.taapi.io/macd?secret=&exchange=binance&symbol=LTC/USDT&interval=30m&backtrack=40"
     response = requests.get(url)
     values = response.json()
     print(type(values))
     LTC = response.json()
     time.sleep(15)
 
-    url = "https://api.taapi.io/macd?secret=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbHVlIjoiNjM3MGJkZWJmYzVhOGFkZmVjYWMzZTFmIiwiaWF0IjoxNjY4MzMzMDU1LCJleHAiOjMzMTcyNzk3MDU1fQ.2aS4jcjhQ6UQGLfJnk3DCJBEpc-wixKemrJ5FXMh5as&exchange=binance&symbol=XRP/USDT&interval=30m&backtrack=40"
+    #url = "https://api.taapi.io/macd?secret=&exchange=binance&symbol=XRP/USDT&interval=30m&backtrack=40"
     response = requests.get(url)
     values = response.json()
     print(type(values))
     XRP = response.json()
     time.sleep(15)
-    url = "https://api.taapi.io/macd?secret=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbHVlIjoiNjM3MGJkZWJmYzVhOGFkZmVjYWMzZTFmIiwiaWF0IjoxNjY4MzMzMDU1LCJleHAiOjMzMTcyNzk3MDU1fQ.2aS4jcjhQ6UQGLfJnk3DCJBEpc-wixKemrJ5FXMh5as&exchange=binance&symbol=XMR/USDT&interval=30m&backtrack=40"
+    #url = "https://api.taapi.io/macd?secret=&exchange=binance&symbol=XMR/USDT&interval=30m&backtrack=40"
     response = requests.get(url)
     values = response.json()
     print(type(values))
